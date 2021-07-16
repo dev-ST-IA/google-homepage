@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,31 @@
     <title>Google</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hello</h1>
+    <nav class="navbar" id="navbar">
+        <div id="menu1">
+            <button class="navbtn">About</button>
+            <button class="navbtn">Store</button>
+        </div>
+        <div id="menu2">
+            <button class="navbtn">Gmail</button>
+            <button class="navbtn">Images</button>
+            <button class="navbtn">Sign in</button>
+        </div>
+    </nav>
+    <section id="searchbody">
+        <div class="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Logo" />
+        </div>
+        <form id="googleform">
+            <input type="text" id="searchbox" placeholder="Search" />
+            <div id="searchbtns">
+                <button type="submit" class="searchbtns" id="googlebtn">Google Search</button>
+                <button type="submit" class="searchbtns" id="luckybtn">I'm Feeling Lucky</button>
+            </div>
+        </form>
+    </section>
 </body>
+
 </html>
